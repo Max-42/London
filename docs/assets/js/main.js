@@ -6,16 +6,16 @@ function navlistner(){
     var dateiname = pfad.replace(/^.*[\\\/]/, '');
     
 
-    if(dateiname == "Geschichte.html"){
+    if(dateiname == "History.html"){
         var geschichte = document.getElementById("geschichte")
         geschichte.className += " aktiv";
-    } else if (dateiname == "Startseite.html"){
+    } else if (dateiname == "Startpage.html"){
         var start = document.getElementById("start")
         start.className += " aktiv";   
-    } else if (dateiname == "Fakten.html"){
+    } else if (dateiname == "Facts.html"){
         var fakten = document.getElementById("fakten")
         fakten.className += " aktiv";   
-    } else if (dateiname == "Sehenswuerdigkeiten.html"){
+    } else if (dateiname == "Sights.html"){
         var sehen = document.getElementById("sehen")
         sehen.className += " aktiv";
     } else if (dateiname == "Impressum.html"){
@@ -52,14 +52,14 @@ function redirect(){
     const urlParams = new URLSearchParams(window.location.search);
     const url = urlParams.get('url');
     if(url !== null){
-        if (confirm('[Warnung] \n Möchtest du zu ' + url + ' weitergeleitet werden? \n Dies ist eine externe Seite! ')){
+        if (confirm('[Warning] \n Do you wish to continue to ' + url + ' ? \n Which is an external site! ')){
             window.location.href = url;
         } else {
             if(history.length != 0)
             {
                 history.go(-1);
             } else {
-                window.alert("Fehler - Du wurdest nicht Weitergeleitet.")
+                window.alert("Error - You did not get redirected.")
             }
         }
 

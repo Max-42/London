@@ -7,12 +7,12 @@
   --content-rahmen: #e1e4e8;
 
 
-  --nav-hintergrund: rgba(15, 158, 27, 0.151);
+  --nav-hintergrund: rgba(15, 63, 158, 0.151);
 
   --nav-text: rgba(22, 22, 22, 0.945);
 
-  --nav-hintergrund-aktiv: rgba(15, 158, 27, 0.445);
-  --nav-hintergrunf-schweben: rgb(15, 158, 27);
+  --nav-hintergrund-aktiv: rgba(15, 75, 158, 0.445);
+  --nav-hintergrunf-schweben: rgb(15, 75, 158);
 
   --nav-text-aktiv: #fefefefe;
   --nav-text-schweben: rgb(255, 255, 255);
@@ -244,7 +244,7 @@ display: none;
   position: absolute;
   right: 0;
   top: 0;
-  color: rgb(37, 44, 37);
+  color: rgb(37, 39, 44);
 }
 .topnav.klein a {
   float: none;
@@ -262,8 +262,6 @@ display: none;
 #nav > .zurueck{
   border-radius: 12px;
 }
-
-
 
 #footer{
 
