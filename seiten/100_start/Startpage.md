@@ -1,5 +1,6 @@
 # Discover London
 
+![London by night](..//assets/images/start/london.jpg)
 ## London's famous sights
 
 ### The Tower Bridge

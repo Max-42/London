@@ -10,6 +10,8 @@ Thanks to:
     - Modern London Double Decker Bus [Josh Mills](?url=https://unsplash.com/@jkmills)
     - Red Classic London Double Decker Bus [Dave Kim](?url=https://www.instagram.com/dkim278/)
     - Tower Bridge [Stephane SOM](?url=https://www.instagram.com/stephane.isc/)
+    - History Museum, London, United Kingdom [Patxi Olaeta](?url=https://fotoyrelato.com/)
+    - London Afterglow [Alexander London](?url=https://alxndr.co/)
 - text sources
     - Tower Bridge [towerbridge.org.uk](?url=https://www.towerbridge.org.uk/)
     - Bridge Database [bridgesdb.com](?url=http://www.bridgesdb.com/bridge-list/tower-bridge/)
