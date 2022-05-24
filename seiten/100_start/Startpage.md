@@ -1,4 +1,4 @@
-# Explore famous London sights
+# Discover London's famous sights
 
 ## The Tower Bridge
 
