@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Tower Bridge</title>
+         <link rel="stylesheet" type="text/css" href="../assets/css/main.css" media="all"/>
+         <link rel="stylesheet" type="text/css" href="../assets/css/print.css" media="print" />
+
+    </head>
+    <body>      
+
+      <div class="topnav" id="nav">
+        <!-- Die "aktiv" Klasse wird mit JavaScript hinzugefügt."-->
+        <a id ="start" href="../100_start/Startpage.html">Start </a>
+        <a id ="fakten" href="../200_facts/Facts.html">Facts </a>
+        <a id ="sehen" href="../300_sights/Sights.html">Sights close-by</a>
+        <a id ="geschichte" href="../400_history/History.html">History </a>
+        <a id ="impressum" href="../900_impressum/Impressum.html">Impressum </a>
+        <div class="rechts">
+        <a href="#" onclick="zurueck()">Back</a>
+        </div>
+        <a class="zurueck" onclick="navBar()">
+          <img src="../assets/images/menu.svg" alt="menü-button">
+        </a>
+      </div>
+      
+      <script type="text/javascript" src="../assets/js/main.js"></script>
+
+      <video autoplay muted loop id="hintergrundVideo">
+        <source src="../assets/video/towerbridge.mp4" type="video/mp4">
+      </video>
+      
+
+        <div id='content'>
+            <!-- Start des Contents-->
+
+
+<h1 id="discover-londons-famous-sights">Discover London's famous sights</h1>
+<h2 id="the-tower-bridge">The Tower Bridge</h2>
+<p><strong>Tower Bridge</strong> is a drawbridge in London. It crosses the River Thames near the Tower of London. It allows ships through the bridge deck when is raised at an angle in the centre.</p>
+<p>The north side of the bridge is Tower Hill, and the south side of the bridge comes down into Bermondsey, an area in Southwark. Tower Bridge is far more visible than London Bridge, which people often mistake it for. Many tourists go to London to see the Tower Bridge. It has its own exhibition centre in the horizontal walkway. This gives one of the best vantage points in London.</p>
+<p>The "bascules" are the surfaces raised to allow tall ships to pass through: this happens about 900 times per year. The bridge's decks (bascules) can be raised to 83° from the horizontal.</p>
+            <!-- Ende des Contents-->
+        </div>
+        <div id="footer">
+          <p>&copy; 2022 Max Oppermann</p>            
+            <a href="../impressum/Impressum.html">Impressum</a>
+            <br>
+            <a href="../thanks/Thanks.html">Thanks to...</a>
+            <button class="rechts" onClick="window.print()">Print this page</button>
+            <button class="rechts" onClick="window.open('../print/overview.html').print();">Print all pages</button>
+          </div>
+          
+    </body>
+</html>

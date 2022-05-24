@@ -12,7 +12,7 @@
   --nav-text: rgba(22, 22, 22, 0.945);
 
   --nav-hintergrund-aktiv: rgba(15, 75, 158, 0.445);
-  --nav-hintergrunf-schweben: rgb(15, 75, 158);
+  --nav-hintergrund-schweben: rgb(15, 75, 158);
 
   --nav-text-aktiv: #fefefefe;
   --nav-text-schweben: rgb(255, 255, 255);
@@ -215,7 +215,7 @@ font-size: 17px;
 }
 
 .topnav a:hover {
-background-color: var(--nav-hintergrunf-schweben);
+background-color: var(--nav-hintergrund-schweben);
 color: var(--nav-text-schweben);
 }
 
@@ -226,6 +226,21 @@ color: var(--nav-text-aktiv);
 
 .topnav .zurueck {
 display: none;
+}
+
+button {
+  color: var(--nav-text-aktiv);
+  background-color: var(--nav-hintergrund);
+  border-radius: 10px;
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+  margin: 3px;
+}
+
+button:hover{
+  background-color: var(--nav-hintergrund-aktiv);
+  color: var(--nav-text-schweben);
+
 }
 
 @media screen and (max-width: 742px) {

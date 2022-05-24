@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Tower Bridge</title>
+         <link rel="stylesheet" type="text/css" href="../assets/css/main.css" media="all"/>
+         <link rel="stylesheet" type="text/css" href="../assets/css/print.css" media="print" />
+
+    </head>
+    <body>      
+
+      <div class="topnav" id="nav">
+        <!-- Die "aktiv" Klasse wird mit JavaScript hinzugefügt."-->
+        <a id ="start" href="../100_start/Startpage.html">Start </a>
+        <a id ="fakten" href="../200_facts/Facts.html">Facts </a>
+        <a id ="sehen" href="../300_sights/Sights.html">Sights close-by</a>
+        <a id ="geschichte" href="../400_history/History.html">History </a>
+        <a id ="impressum" href="../900_impressum/Impressum.html">Impressum </a>
+        <div class="rechts">
+        <a href="#" onclick="zurueck()">Back</a>
+        </div>
+        <a class="zurueck" onclick="navBar()">
+          <img src="../assets/images/menu.svg" alt="menü-button">
+        </a>
+      </div>
+      
+      <script type="text/javascript" src="../assets/js/main.js"></script>
+
+      <video autoplay muted loop id="hintergrundVideo">
+        <source src="../assets/video/towerbridge.mp4" type="video/mp4">
+      </video>
+      
+
+        <div id='content'>
+            <!-- Start des Contents-->
+
+
+<h1 id="thanks">Thanks</h1>
+<p>Thanks to:</p>
+<ul>
+<li><a href="?url=https://pixabay.com/de/users/christianbodhi-9869182/">ChristianBodhi</a> for the free background videos!</li>
+<li>photographers of the pictures:<ul>
+<li><a href="?url=https://www.designerpoint.de/">designerpoint</a></li>
+<li><a href="?url=https://www.instagram.com/supanat.bond/">BondSupanat</a></li>
+</ul>
+</li>
+<li>text sources<ul>
+<li><a href="?url=https://www.towerbridge.org.uk/">towerbridge.org.uk</a></li>
+<li><a href="?url=http://www.bridgesdb.com/bridge-list/tower-bridge/">bridgesdb.com</a></li>
+</ul>
+</li>
+</ul>
+            <!-- Ende des Contents-->
+        </div>
+        <div id="footer">
+          <p>&copy; 2022 Max Oppermann</p>            
+            <a href="../impressum/Impressum.html">Impressum</a>
+            <br>
+            <a href="../thanks/Thanks.html">Thanks to...</a>
+            <button class="rechts" onClick="window.print()">Print this page</button>
+            <button class="rechts" onClick="window.open('../print/overview.html').print();">Print all pages</button>
+          </div>
+          
+    </body>
+</html>
