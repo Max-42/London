@@ -45,12 +45,19 @@ def generiere(datei,ziel):
         with open (os.path.join(arbeitspfad,"include","html","footer.html"), "r", encoding="UTF-8") as f:
             footer = f.read()
             f.close
+        with open (os.path.join(arbeitspfad,"include","html","overview-header.html"), "r", encoding="UTF-8") as f:
+            overview_header = f.read()
+            f.close
+        with open (os.path.join(arbeitspfad,"include","html","overview-footer.html"), "r", encoding="UTF-8") as f:
+            overview_footer = f.read()
+            f.close
     except(Exception):
         print("Die Header und Footer sind Fehlerhaft.")
 
+    overview = overview_header #add header
     for oldfile,newfile in zip(datei,ziel):
         newfile = str(newfile).replace(".md",".html")
-        print("Generiere: \"" + oldfile + "\" zu \"" + newfile + "\"")
+        print("Generiere: \"" + oldfile + "\" zu \"" + oldfile + "\"")
 
         filepath= os.path.dirname(newfile)
         if not os.path.exists(filepath):
@@ -60,7 +67,10 @@ def generiere(datei,ziel):
         with open(oldfile, 'r', encoding="utf8") as f:
             text = f.read()
             f.close
+            
             md = markdown.markdown(text, extensions=['toc','meta','tables'])
+            if not oldfile.endswith("Impressum.md") and not oldfile.endswith("Thanks.md"):
+                overview += md + "\n </br></br>\n" #add content
             html = str(header) +"\n" + str(md) + "\n" +str(footer)
 
         
@@ -70,17 +80,12 @@ def generiere(datei,ziel):
             f.write(html)
             f.close()
 
-def vars(htmlstring,pfadderdatei):
-    """
-    Ersetzt die variablen in dem header und footer.
-    """
 
-    vars= {
-        "MAINCSSPATH":"",
-        "MAINJSPATH":"",
-        "MAINIMGPATH":"",
-    }
-    htmlstring.re
+    overviewpath = os.path.dirname(os.path.join(arbeitspfad,"docs","print","overview.html"))
+    if not os.path.exists(overviewpath):
+        os.makedirs(overviewpath)
+    overview += overview_footer #add footer
+    save_overview(overview,os.path.join(overviewpath,"overview.html"))
 
 def cpdir(von,nach):
     """
@@ -93,15 +98,19 @@ def logo():
         for zeile in zeilen:
             print(zeile.replace('\n',''))
 
-
+def save_overview(overview,path):
+    with open(path, 'w', encoding="UTF-8") as f:
+        f.write(overview)
+        f.close()
 
 def main():
     print("Starte bau der Website...")
 
     global arbeitspfad
     arbeitspfad = os.path.dirname(os.path.realpath('__file__'))
+
     
-    logo()
+    #logo()
 
     vorbereiten(os.path.join(arbeitspfad,"docs"))
 
@@ -112,6 +121,7 @@ def main():
     tmp1, tmp2 =scan(os.path.join(arbeitspfad,"seiten"), os.path.join(arbeitspfad,"docs"))
 
     generiere(tmp1,tmp2)
+
 
     
     
@@ -128,11 +138,10 @@ if __name__ == '__main__':
 import time
 while True:
     try:
-        logo()
+        #logo()
         #input("Neugenerieren")
         time.sleep(3)
         main()
     except(Exception):
         print("Es ist ein Unbekannter Fehler aufgetreten")
-
 
