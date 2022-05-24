@@ -18,6 +18,9 @@ function navlistner(){
     } else if (dateiname == "Sights.html"){
         var sehen = document.getElementById("sehen")
         sehen.className += " aktiv";
+    } else if (dateiname == "Transport.html"){
+        var sehen = document.getElementById("transport")
+        sehen.className += " aktiv";
     } else if (dateiname == "Impressum.html"){
         var impressum = document.getElementById("impressum")
         impressum.className += " aktiv";

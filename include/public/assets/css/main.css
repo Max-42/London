@@ -232,7 +232,7 @@ button {
   color: var(--nav-text-aktiv);
   background-color: var(--nav-hintergrund);
   border-radius: 10px;
-  padding: 6px 13px;
+  padding: 6px 0px;
   border: 1px solid #dfe2e5;
   margin: 3px;
 }
@@ -271,7 +271,7 @@ button:hover{
 .rechts {
  float: right;
 } 
-#nav > #start, #nav > #fakten, #nav > #sehen, #nav > #geschichte, #nav > #impressum{
+#nav > #start, #nav > #fakten, #nav > #sehen,#nav > #transport, #nav > #geschichte, #nav > #impressum{
   border-radius: 7.5px;
 }
 #nav > .zurueck{
