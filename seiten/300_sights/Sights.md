@@ -8,7 +8,7 @@
 
 The bridge is **800 feet (ca. 244 m) in length** and **consists of two 213-foot (65 m) bridge towers** connected at the upper level by two horizontal walkways, and a central pair of bascules that can open to allow shipping. **Originally hydraulically** powered, the operating mechanism was **converted to an electro-hydraulic** system in 1972. The bridge is part of the London Inner Ring Road and thus the boundary of the London congestion charge zone and remains an important traffic route with **40,000 crossings every day**. The bridge deck is freely **accessible to both vehicles and pedestrians**, whereas the bridge's twin towers, high-level walkways and Victorian engine rooms form part of the Tower Bridge Exhibition.
 
-Tower Bridge has become a **recognizable London landmark**. It is **sometimes confused with London Bridge**, about 0.5 miles (0.8 km) upstream, which has led to a popular urban legend about an American purchasing the wrong bridge. Several s**tunt pilots have flown underneath the bridge**, including the pioneering Francis McClean.
+Tower Bridge has become a **recognizable London landmark**. It is **sometimes confused with London Bridge**, about 0.5 miles (0.8 km) upstream, which has led to a popular urban legend about an American purchasing the wrong bridge. Several **stunt pilots have flown underneath the bridge**, including the pioneering Francis McClean.
 
 ### The London Eye
 
@@ -20,7 +20,7 @@ The structure is **135 metres** (ca. 443 ft) **tall**, and the wheel has a diame
 
 The London Eye **used to be the highest public panorama point in London** until it was beaten by the 245-metre-high 804 ft  observation deck on the 72nd floor of The Shard, which opened to the public on 1st February 2013.
 
-## Big Ben
+### Big Ben
 
 ![Big Ben](../assets/images/sights/bigben.jpg)
 
