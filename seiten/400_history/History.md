@@ -2,7 +2,7 @@
 
 ![History Museum](../assets/images/geschichte/visual.jpg)
 
-**10. Januar 1863** Opening of the origins of  the London Underground (Metropolitan Railway).
+**10. January 1863** Opening of the origins of  the London Underground (Metropolitan Railway).
 
 **1886** - The construction of Tower Bridge began on 22 April.
 
@@ -24,4 +24,4 @@
 
 **2012** - Playing a focal point in the London Olympics, this year saw the Olympic rings suspended from the Walkways, and James Bond and ‘the Queen’ fly through in a helicopter during the Opening Ceremony.
 
-**1. Februar 2013** - Opening of the 72nd floor in the Shard to the public, which beet the current record of the highest public viewing place in London.
+**1. February 2013** - Opening of the 72nd floor in the Shard to the public, which beet the current record of the highest public viewing place in London.
