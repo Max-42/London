@@ -14,9 +14,9 @@ Tower Bridge has become a **recognizable London landmark**. It is **sometimes co
 
 ![The London Eye](../assets/images/sights/london-eye.jpg)
 
-The London Eye, or the Millennium Wheel, is a cantilevered observation wheel **on the South Bank of the River Thames in London**. It is Europe's tallest cantilevered observation wheel, and is the **most popular paid tourist attraction in the United Kingdom,** with over **3 million visitors annually**. It has made many appearances in popular culture.
+The London Eye, or the Millennium Wheel, is a cantilevered observation wheel **on the South Bank of the River Thames in London**. It is Europe's tallest cantilevered observation wheel and is the **most popular paid tourist attraction in the United Kingdom,** with over **3 million visitors annually**. It has made many appearances in popular culture.
 
-The structure is **135 metres** (ca. 443 ft) **tall** and the wheel has a diameter of 120 metres (ca. 394 ft). Back then, when it was opened to the public in 2000 it was the world's tallest Big wheel. 
+The structure is **135 metres** (ca. 443 ft) **tall**, and the wheel has a diameter of 120 metres (ca. 394 ft). Back then, when it was opened to the public in 2000 it was the world's tallest Big wheel.
 
 The London Eye **used to be the highest public panorama point in London** until it was beaten by the 245-metre-high 804 ft  observation deck on the 72nd floor of The Shard, which opened to the public on 1st February 2013.
 

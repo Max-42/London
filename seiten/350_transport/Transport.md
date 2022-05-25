@@ -9,7 +9,7 @@ Buses are **in use since 1829** in the public transport of London.  In the decad
 
 ![The moddern London Bus](../assets/images/transport/new-london-bus.jpg)
 
-As of 2021, London has **675 bus routes** and around 19,000 bus-stops served by over **9,000 buses**, almost all of which are operated by private companies under contract to London Buses, part of Transport for London.
+As of 2021, London has **675 bus routes** and around **19,000 bus-stops** served by over **9,000 buses**, almost all of which are operated by private companies under contract to London Buses, part of Transport for London.
 
 London has an extensive and **developed transport network** which includes both **private and public services**. London's public transport network serves as the central hub for the United Kingdom in rail, air and road transport.
 

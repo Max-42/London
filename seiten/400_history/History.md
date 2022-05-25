@@ -1,8 +1,8 @@
 ## History
 
-![Chandni-Chowk](../assets/images/geschichte/visual.jpg)
+![History Museum](../assets/images/geschichte/visual.jpg)
 
-**10. January 1863** Opening of the origins of  the London Underground (Metropolitan Railway).
+**10. Januar 1863** Opening of the origins of  the London Underground (Metropolitan Railway).
 
 **1886** - The construction of Tower Bridge began on 22 April.
 
