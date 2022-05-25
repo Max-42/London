@@ -5,11 +5,11 @@
 
 ### The Tower Bridge
 
-**Tower Bridge** is a drawbridge in London. It crosses the River Thames near the Tower of London. It allows ships through the bridge deck when is raised at an angle in the centre.
+**Tower Bridge** is a **drawbridge in London**. It **crosses the River Thames** near the Tower of London. It allows ships through the bridge deck when is raised at an angle in the centre.
 
-The north side of the bridge is Tower Hill, and the south side of the bridge comes down into Bermondsey, an area in Southwark. Tower Bridge is far more visible than London Bridge, which people often mistake it for. Many tourists go to London to see the Tower Bridge. It has its own exhibition centre in the horizontal walkway. This gives one of the best vantage points in London.
+The north side of the bridge is Tower Hill, and the south side of the bridge comes down into Bermondsey, an area in Southwark. Tower Bridge is far more visible than London Bridge, which people often mistake it for. Many tourists go to London to see the Tower Bridge. It has its **own exhibition** centre in the horizontal walkway. This gives one of the best vantage points in London.
 
-The “bascules” are the surfaces raised to allow tall ships to pass through: this happens about 900 times per year. The bridge's decks (bascules) can be raised to 83° from the horizontal.
+The “bascules” are the surfaces raised to allow tall ships to pass through: this happens about **900 times per year**. The bridge's decks (bascules) can be **raised to 83° from the horizontal**.
 
 ### The London Eye
 
@@ -26,4 +26,4 @@ As of 2021, London has **675 bus routes** and around 19,000 bus-stops served by 
 ### The London Tubes
 
 The London Underground, which is also known as **the Underground** or **the Tube**, is a very fast transit system in London. The Underground has its origins in the Metropolitan Railway, the world's first underground passenger railway.
-The **Average speed** of the Tubes are **33 km/h** and is operated by the London Underground Limited.
+The **Average speed** of the Tubes are **33 km/h** and is **operated by the London Underground Limited**.

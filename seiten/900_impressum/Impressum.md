@@ -6,7 +6,7 @@
 - Lindholz, 9
 - 31139 Hildesheim
 
-Kontakt über Mail: [max@oppermann.fun](mailto:max@oppermann.fun).
+Kontakt über Mail: [max@dyren.de](mailto:max@oppermann.fun).
 
 ## Haftung für Inhalte
 
